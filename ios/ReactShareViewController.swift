@@ -6,7 +6,6 @@
 //
 //  Created by Gustavo Parreira on 29/07/2020.
 //
-
 import RNShareMenu
 
 class ReactShareViewController: ShareViewController, RCTBridgeDelegate, ReactShareViewDelegate {
@@ -62,7 +61,7 @@ class ReactShareViewController: ShareViewController, RCTBridgeDelegate, ReactSha
     self.openHostApp()
   }
 
-  func continueInApp(with item: NSExtensionItem, and extraData: [String:Any]?) {
-    handlePost(item, extraData: extraData)
+  func continueInApp(with items: [NSExtensionItem], and extraData: [String:Any]?) {
+    handlePost(items, extraData: extraData)
   }
 }
