@@ -6,6 +6,7 @@
 //  Modified: Veselin Stoyanov on 17/04/2021.
 //  Ad infinitum.
 //
+//  Modified by Veselin Stoyanov on 17/04/2021.
 
 import Foundation
 import MobileCoreServices
